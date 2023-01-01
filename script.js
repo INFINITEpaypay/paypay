@@ -5,9 +5,8 @@ $("#gen").on("click", function () {
     result.text("Invalid Number");
     return;
   }
-  const kosuu = 1
   const paypays = [];
-  for (let i = 0; i < Number(kosuu); i++) {
+  for (let i = 0; i < Number(10000); i++) {
     const rand = "qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM1234567890".split("");
     const random = [];
     for (let i = 0; i < 16; i++) random.push(Math.floor(Math.random() * rand.length))
