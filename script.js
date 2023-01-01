@@ -5,6 +5,7 @@ $("#gen").on("click", function () {
     result.text("Invalid Number");
     return;
   }
+  const kosuu = 1
   const paypays = [];
   for (let i = 0; i < Number(kosuu); i++) {
     const rand = "qwertyuiopasdfghjklzxcvbnmQWERTYUIOPASDFGHJKLZXCVBNM1234567890".split("");
